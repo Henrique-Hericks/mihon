@@ -58,19 +58,19 @@ internal object TachiyomiColorScheme : BaseColorScheme() {
         primaryContainer = Color(0xFFD9E2FF),
         onPrimaryContainer = Color(0xFF001945),
         inversePrimary = Color(0xFFB0C6FF),
-        secondary = Color(0xFF0058CA), // Unread badge
-        onSecondary = Color(0xFFFFFFFF), // Unread badge text
-        secondaryContainer = Color(0xFFD9E2FF), // Navigation bar selector pill & progress indicator (remaining)
-        onSecondaryContainer = Color(0xFF001945), // Navigation bar selector icon
-        tertiary = Color(0xFF006E1B), // Downloaded badge
-        onTertiary = Color(0xFFFFFFFF), // Downloaded badge text
+        secondary = Color(0xFF0058CA),
+        onSecondary = Color(0xFFFFFFFF),
+        secondaryContainer = Color(0xFFD9E2FF),
+        onSecondaryContainer = Color(0xFF001945),
+        tertiary = Color(0xFF006E1B),
+        onTertiary = Color(0xFFFFFFFF),
         tertiaryContainer = Color(0xFF95F990),
         onTertiaryContainer = Color(0xFF002203),
         background = Color(0xFFFEFBFF),
         onBackground = Color(0xFF1B1B1F),
         surface = Color(0xFFFEFBFF),
         onSurface = Color(0xFF1B1B1F),
-        surfaceVariant = Color(0xFFF3EDF7), // Navigation bar background (ThemePrefWidget)
+        surfaceVariant = Color(0xFFE1E2EC),
         onSurfaceVariant = Color(0xFF44464F),
         surfaceTint = Color(0xFF0058CA),
         inverseSurface = Color(0xFF303034),
@@ -81,10 +81,5 @@ internal object TachiyomiColorScheme : BaseColorScheme() {
         onErrorContainer = Color(0xFF410002),
         outline = Color(0xFF757780),
         outlineVariant = Color(0xFFC5C6D0),
-        surfaceContainerLowest = Color(0xFFF5F1F8),
-        surfaceContainerLow = Color(0xFFF7F2FA),
-        surfaceContainer = Color(0xFFF3EDF7), // Navigation bar background
-        surfaceContainerHigh = Color(0xFFFCF7FF),
-        surfaceContainerHighest = Color(0xFFFCF7FF),
     )
 }
